@@ -1,13 +1,27 @@
 h1{
   font-family:"Arial";
+  text-align: center;
 }
 p{
-  font-family: monospace;
+  font-family: 'Indie Flower', cursive;
 }
-/* 1em=16px */
 body{
   font-size: 20px;
 }
 #two{
-  font-size: 2.0em;
+  font-size: 2.0 em;
 }
+/*p{
+  font-family: monospace;
+}/
+/* 1em=16px */
+/* body{ */
+  /* font-size: 20px; */
+/* } */
+/* #two{ */
+  /* font-size: 2.0em; */
+/* } */
+/* p{ */
+  /* font-style:italic; */
+  /* font-weight: bold; */
+/* } */
