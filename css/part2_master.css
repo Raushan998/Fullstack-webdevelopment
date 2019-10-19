@@ -1,0 +1,16 @@
+body{
+  background-color:url("https://wallpapersafari.com/w/mxs0FM");
+}
+div{
+  background-color:blue;
+  border-color:orange;
+  border-width:5px;
+  border-style: double;
+}
+p{
+  color:yellow
+}
+span{
+  background:red;
+  color:green;
+}

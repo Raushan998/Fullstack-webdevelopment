@@ -1,0 +1,23 @@
+.firstDiv{
+  color:red;
+}
+.secondDiv{
+     color:blue;
+}
+#singledout{
+     color:green;
+}
+/* colors all the elements    */
+/* *{ */
+  /* color:green; */
+/* } */
+li a{
+  color:red;
+}
+h3+ul{
+  border:4px dotted purple;
+}
+li a[href="www.npr.org"]{
+    color:blue;
+    border:5px solid orange;
+}

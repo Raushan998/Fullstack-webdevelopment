@@ -1,0 +1,21 @@
+body{
+  background-color:#0099ff;
+}
+.second{
+     color:#ff3399;
+}
+.li1{
+   color:#ff3399;
+}
+.li3{
+    color:#003366;
+}
+#sub{
+     border-color: pink;
+     border-width: 5px;
+}
+#text{
+     /* border-width: 10px; */
+     background-color: blue;
+     border:10px yellow dashed;
+}
