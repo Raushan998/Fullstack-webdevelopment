@@ -1,0 +1,58 @@
+.paragraph{
+     background-color: blue;
+     color:#FDFFFC;
+     margin:50px 30px 30px 30px;
+}
+body{
+  background-color: #0394fc;
+}
+.heading{
+  text-align: center;
+  text-emphasis-color: white;
+}
+.heading2{
+  text-align: center;
+}
+.paragraph1{
+    text-align: center;
+    padding-top:5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.paragraph2{
+    text-align: center;
+    padding-top:5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+h2{
+  text-align: center;
+}
+.name1{
+  text-align: center;
+}
+#Submit{
+  background-color: orange;
+  height:80px;
+  width:150px;
+  margin: 4px;
+  margin-top: 12px;
+  font-size: 1.5em;
+  border-radius: 25px;
+}
+.name3{
+     margin:4px;
+     /* font-size: 1.5em; */
+     border-radius: 20px;
+}
+.name2{
+     margin-bottom: 5px;
+     border-radius: 50px;
+}
+.mail1{
+  margin-top:4px;
+  padding:0.5px;
+}
+#mail2{
+     margin-bottom:8px;
+}
