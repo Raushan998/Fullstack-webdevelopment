@@ -1,11 +1,16 @@
 body{
   background-color:#0099ff;
 }
+.first{
+  background-color: gray;
+}
 .second{
      color:#ff3399;
 }
 .li1{
-   color:#ff3399;
+  
+   text-decoration: overline;
+   color:purple;
 }
 .li3{
     color:#003366;
@@ -14,8 +19,21 @@ body{
      border-color: pink;
      border-width: 5px;
 }
-#text{
-     /* border-width: 10px; */
-     background-color: blue;
-     border:10px yellow dashed;
+#mail{
+  border:5px solid red;
+}
+#password{
+  border:5px solid red;
+}
+.sixth{
+   color:blue;
+   border:5px yellow dashed;
+ }
+.paragraph{
+  background-color:#ff3399;
+}
+#textblock{
+  border:2px solid rgb(144,0,0);
+  width:800px;
+  height:400px;
 }

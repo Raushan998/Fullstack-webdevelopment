@@ -17,7 +17,7 @@ li a{
 h3+ul{
   border:4px dotted purple;
 }
-li a[href="www.npr.org"]{
+li a[href="https://www.npr.org"]{
     color:blue;
     border:5px solid orange;
 }
