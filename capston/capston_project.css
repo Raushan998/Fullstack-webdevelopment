@@ -1,58 +1,33 @@
-.paragraph{
-     background-color: blue;
-     color:#FDFFFC;
-     margin:50px 30px 30px 30px;
-}
 body{
-  background-color: #0394fc;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color:#011627;
+  color:#FDFFFC;;
+  text-align:center;
+  border:40px solid #2EC486;
+  border-top:0px;
+  margin:0px;
 }
-.heading{
-  text-align: center;
-  text-emphasis-color: white;
+.paragraph{
+   text-align:center;
+   background-color:#003366;
 }
-.heading2{
-  text-align: center;
+#paragraph1{
+  padding-top:10px;
+  padding-left:20%;
+  padding-right:20%;
+  padding-bottom:10px;
+  text-decoration-color: white;
 }
-.paragraph1{
-    text-align: center;
-    padding-top:5%;
-    padding-left: 20%;
-    padding-right: 20%;
+form{
+  font-size:1.5em;
+  margin-bottom:10px;
 }
-.paragraph2{
-    text-align: center;
-    padding-top:5%;
-    padding-left: 20%;
-    padding-right: 20%;
+p{
+  padding-bottom:0px;
 }
-h2{
-  text-align: center;
-}
-.name1{
-  text-align: center;
-}
-#Submit{
-  background-color: orange;
-  height:80px;
-  width:150px;
-  margin: 4px;
-  margin-top: 12px;
-  font-size: 1.5em;
-  border-radius: 25px;
-}
-.name3{
-     margin:4px;
-     /* font-size: 1.5em; */
-     border-radius: 20px;
-}
-.name2{
-     margin-bottom: 5px;
-     border-radius: 50px;
-}
-.mail1{
-  margin-top:4px;
-  padding:0.5px;
-}
-#mail2{
-     margin-bottom:8px;
+#submit1{
+  background-color:#ff6600;
+  padding:3%;
+  border-radius:25px;
+  font-size: 1em;
 }

@@ -5,30 +5,36 @@
     <title></title>
   </head>
   <body>
-    <h1>Course Sign Up Page</h1>
-    <h3>Please Note:First Name,Last Name,password and Email are required</h3>
-     <form action="file:///home/raushan/Documents/Full_stack/HTML_BASICS/Thankyou.html" method="get">
-       <label for="fn">First Name:</label>
-       <input id="fn" type="text" name="" placeholder="First Name">
-       <label for="ln">Last Name</label>
-       <input id="ln" name="" placeholder="Last Name">
-       <p></p>
-        <label for="mail">Email:</label>
-       <input  id="mail" type="Email" name="" placeholder="name@gmail.com">
-       <label for="pass">password</label>
-       <input id="pass" type="password" name="" placeholder="  ">
-       <p>Are your over the age 18?</p>
-       <label for="age">Yes:</label>
-       <input id="age" type="radio" name="age" value="">
-       <label for="age1">No:</label>
-       <input id="age1"type="radio" name="age" value="">
-       <p>Do you have a credit card or paypal?</p>
-       <select name="payment option">
-         <option value="cc">Credit card</option>
-         <option value="pp">Paypal</option>
-       </select>
-       <p></p>
-       <input type="submit" name="" value="Sign Up">
+     <h1>Course Sign Up Page</h1>
+     <p>Please note First Name,Last Name,Password and Email are required</p>
+     <form action="thankyou.html" method="get">
+       <label for="userinput">First Name:
+         <input type="name" name="First Name" placeholder="First Name" required>
+       </label>
+       <label for="userinput">Last Name:
+         <input type="name" name="Last Name" placeholder="Last Name" >
+       </label>
+       <br></br>
+       <label for="Email">Email:</label>
+       <input type="Email" name="Email" placeholder="Email" required>
+       <label for="password">Password:</label>
+       <input type="password"  placeholder="password" required>
+        <br>
+        <p>Are you over the age of 18?</p>
+        <label for="Age">Yes:</label>
+        <input id="18+" type="radio" name="age" value="more than 18">
+        <label for="Age">No:</label>
+        <input id="18-" type="radio" name="age" value="less than 18">
+        <br>
+        <p>Do you have a credit Card or Paypal?</p>
+        <select  name="payment method" required>
+         <option value="">credit card</option>
+         <option value="">Paypal</option>
+        </select>
+        <p></p>
+        <p></p>
+        <input type="submit"  value="Sign Up">
+
      </form>
   </body>
 </html>
