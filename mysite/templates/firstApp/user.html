@@ -3,20 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Users</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Here are your for firstApp:</h1>
-    {%if users%}
-      <ol>
-        {%for person in users%}
-          <li>User Info</li>
-          <ul>
-            <li>First Name:{{person.first_name}}</li>
-            <li>Last_Name:{{person.last_name}}</li>
-            <li>Email:{{person.email}}</li>
-          </ul>
-          {% endfor %}
-      </ol>
-      {% endif %}
+    <div class="container">
+      <h1>Please Sign Up here!</h1>
+      <form method="post">
+        {{form.as_p}}
+        {%csrf_token%}
+        <input type="submit" class="btn btn-primary" value="submit">
+      </form>
+    </div>
   </body>
 </html>
